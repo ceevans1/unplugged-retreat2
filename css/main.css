@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /*-----------------Header-Footer styles--------------------*/
+.content-wrapper{
+  width: 100%;
+}
+
 header, footer{
     display: flex;
     justify-content: center;
@@ -105,14 +109,23 @@ header, footer{
     flex-flow: row wrap;
 }
 
+header{
+  padding: 15px 0;
+}
+
 header .content-wrapper{
+    margin: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
+ header .header-divider{
+   width: 100%
+ }
 
 header nav{
+    width: 60%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -120,9 +133,22 @@ header nav{
 }
 
 header nav ul{
+    width: 44%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer .content-wrapper{
+  width: 55%;
+}
+
+footer .contact h4{
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
 }
 
 footer .social {
@@ -147,7 +173,12 @@ footer .social-icons{
     flex-flow: row wrap;
 }
 
+.hero-area h1{
+  padding: 20px;
+}
+
 aside{
+    padding: 25px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,6 +192,19 @@ aside{
     flex-flow: row wrap;
 }
 
+.features h2{
+  padding: 25px 20px;
+}
+
+.features article{
+  width: 55%;
+  padding: 23px 0;
+}
+
+.features p{
+  margin: 0;
+}
+
 .features-items{
     display: flex;
     justify-content: center;
@@ -169,10 +213,15 @@ aside{
 }
 
 .reviews{
+    margin: 50px 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.reviews h3{
+    width: 48%
 }
 
 /*---------------------About page main styles---------------------*/
