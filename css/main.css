@@ -97,6 +97,42 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  font-size: 16px;
+}
+
+body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 1em;
+}
+
+h1{
+  line-height: 30px;
+}
+
+h2 {
+     font-family: 'Poppins', sans-serif;
+     line-height: 25px;
+}
+
+h3,
+h4 {
+     font-family: 'Poppins', sans-serif;
+}
+
+a {
+     color: #e2e3ed;
+     text-decoration: none;
+}
+
+li{
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
 /*-----------------Header-Footer styles--------------------*/
 .content-wrapper{
   width: 100%;
@@ -125,7 +161,7 @@ header .content-wrapper{
  }
 
 header nav{
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -133,9 +169,9 @@ header nav{
 }
 
 header nav ul{
-    width: 44%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
