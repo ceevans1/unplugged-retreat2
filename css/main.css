@@ -112,6 +112,8 @@ h1{
 
 h2 {
      font-family: 'Poppins', sans-serif;
+     font-style: light;
+     font-size: 2em;
      line-height: 25px;
 }
 
@@ -133,12 +135,18 @@ address {
   font-style: normal;
 }
 
+section {
+  color:#e2e3ed;
+}
+
 /*-----------------Header-Footer styles--------------------*/
 .content-wrapper{
   width: 100%;
 }
 
 header, footer{
+    color: #e2e3ed;
+    background-color: #202322;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,6 +165,8 @@ header .content-wrapper{
     flex-flow: row wrap;
 }
  header .header-divider{
+   background-color: #3a3a3a;
+   height: 2px;
    width: 100%
  }
 
@@ -174,6 +184,7 @@ header nav ul{
     justify-content: space-around;
     align-items: center;
 }
+
 
 footer .content-wrapper{
   width: 55%;
@@ -207,6 +218,7 @@ footer .social-icons{
 
 /*--------------------Homepage main-------------------------*/
 .hero-area {
+    background-image: url("img/hero.jpg");
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,6 +230,8 @@ footer .social-icons{
 }
 
 aside{
+    color: #e2e3ed;
+    background-color: #527158;
     padding: 25px 20px;
     display: flex;
     justify-content: center;
@@ -225,7 +239,34 @@ aside{
     flex-flow: row wrap;
 }
 
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #2a423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .features{
+
+    color: #e2e3ed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -253,11 +294,16 @@ aside{
 }
 
 .reviews{
-    margin: 50px 25px;
+    color: #e2e3ed;
+    background-color: #2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+}
+
+.reviews .content-wrapper{
+  margin: 50px 25px;
 }
 
 .reviews h3{
@@ -266,6 +312,7 @@ aside{
 
 /*---------------------About page main styles---------------------*/
 .mission{
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -273,6 +320,7 @@ aside{
 }
 
 .contact-info{
+    background-color:#2a423a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,6 +329,7 @@ aside{
 
 /*-------------------FAQ page main styles------------------------*/
 .faq {
+    background-color: #527158;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -506,6 +555,11 @@ aside{
 
 @media only screen and (min-width: 1200px){
   /*----------------Desktop styles-----------------*/
+
+  body{
+    max-width: 1200px;
+    margin: auto;
+  }
   .content-wrapper{
     max-width: 960px;
     margin: 120px 0;
