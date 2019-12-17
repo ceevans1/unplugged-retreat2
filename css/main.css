@@ -108,6 +108,7 @@ body {
 
 h1{
   line-height: 30px;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
@@ -137,6 +138,14 @@ address {
 
 section {
   color:#e2e3ed;
+}
+
+img{
+  width: 100%;
+}
+
+figure{
+  margin: 0;
 }
 
 /*-----------------Header-Footer styles--------------------*/
@@ -218,11 +227,13 @@ footer .social-icons{
 
 /*--------------------Homepage main-------------------------*/
 .hero-area {
-    background-image: url("img/hero.jpg");
+    background-image: url("../img/hero72.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-flow: row wrap;
+    justify-content: flex-start;
 }
 
 .hero-area h1{
@@ -271,6 +282,10 @@ input[type=button] {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    background-image: url('../img/campfire.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .features h2{
@@ -457,6 +472,10 @@ input[type=button] {
 
   .header-divider{
     display: none;
+  }
+
+  .hero-area .content-wrapper{
+    margin: 0 0 200px 0;
   }
   aside .content-wrapper{
     display: flex;
