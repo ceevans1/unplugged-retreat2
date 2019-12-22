@@ -506,6 +506,11 @@ input[type=button] {
         width: 50%;
     }
 
+    .features i {
+	    font-size: 3.75em;
+      margin-bottom: 40px;
+    }
+
     /* Reviews */
     .reviews article {
       display: flex;
@@ -625,7 +630,7 @@ input[type=button] {
         width: 100%;
     }
 
-  
+
 
     .contact-section .content-wrapper h2 {
         margin-bottom: 40px;
