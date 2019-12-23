@@ -196,10 +196,10 @@ header nav ul{
 
 
 footer .content-wrapper{
-  width: 55%;
+  width: 66%;
 }
 
-footer .contact h4{
+footer .contact{
   text-align: center;
 }
 
@@ -211,15 +211,37 @@ footer .social {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column wrap;
 }
 
 footer .social-icons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width:200px;
+}
+
+
+footer .social-icons p{
+  background-color: #527158;
+  text-align: center;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.social-icons i{
+  margin-top: 10px;
+}
+
+#facebook{
+  color: #527158;
+  background-color: #e2e3ed;
 }
 
 .copyright{
+  margin-top: 45px;
   text-align: center;
 }
 
